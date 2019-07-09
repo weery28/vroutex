@@ -1,15 +1,12 @@
 package me.coweery.vroutex
 
 import io.vertx.reactivex.core.AbstractVerticle
-import io.vertx.reactivex.core.Vertx
 import io.vertx.reactivex.core.http.HttpServer
 import io.vertx.reactivex.ext.web.Router
 import io.vertx.reactivex.ext.web.handler.BodyHandler
 import org.springframework.boot.SpringApplication
 import org.springframework.context.ApplicationContext
 import org.springframework.stereotype.Controller
-
-
 
 class Vroutex private constructor() {
 

@@ -117,7 +117,7 @@ class Registrator(
     }
 
     private fun getArgsBuilder(method: Method, controller: Any, getters: Map<Class<*>, (RoutingContext) -> Any>):
-        (RoutingContext) -> Array<Any> {
+            (RoutingContext) -> Array<Any> {
 
         val res = mutableListOf<(RoutingContext) -> Any>()
 
@@ -234,5 +234,4 @@ class Registrator(
             else -> throw ArgumentsException()
         }
     }
-
 }
