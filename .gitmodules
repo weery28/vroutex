@@ -1,3 +1,0 @@
-[submodule "vertx-service-proxy"]
-	path = vertx-service-proxy
-	url = https://github.com/weery28/vertx-service-proxy
